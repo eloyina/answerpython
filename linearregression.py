@@ -24,8 +24,8 @@ from sklearn.metrics import mean_squared_log_error
 from sklearn.metrics import median_absolute_error
 from sklearn.metrics import explained_variance_score
 
+file= pd.read_csv('D:/python/linearregression.csv')
 
-# Load the diabetes dataset
 diabetes = datasets.load_diabetes()
 
 diabetes_pand= pd.DataFrame(diabetes.data, columns=diabetes.feature_names)
@@ -84,7 +84,7 @@ plt.show()
 
 
 
-
+"""
 
 
 
