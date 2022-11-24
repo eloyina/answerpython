@@ -78,6 +78,8 @@ print ("F1 score is ", metrics.f1_score(y_test, y_pred, average='weighted')*100)
 #   Confusion matrix is a table that is often used to describe the performance of a classification model (or "classifier") on a set of test data for which the true values are known.
 
 print ("Confusion Matrix is ", metrics.confusion_matrix(y_test, y_pred))
+ #plot confusion matrix
+#   Confusion matrix is a table that is often used to describe the performance of a classification model (or "classifier") on a set of test data for which the true values are known.
 
 # Classification Report
 
